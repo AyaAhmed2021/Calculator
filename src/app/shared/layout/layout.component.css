@@ -1,0 +1,34 @@
+
+
+*{
+  color: #fff;
+}
+
+.col-2 {
+  height: 25px;
+}
+
+
+#btnThem1{
+  background-color: #f86c5b
+    }
+
+    #result {
+      background-color: #171e31;
+      height: 100px;
+    }
+
+    #calc {
+      background-color: #242c43;
+      height: 400px;
+    }
+
+    .control {
+      background-color: #a2b3e1
+    }
+
+    #equal {
+      background-color: #f86c5b
+    }
+
+

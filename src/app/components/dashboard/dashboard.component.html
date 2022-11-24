@@ -1,0 +1,12 @@
+<div class="d-flex justify-content-between">
+  <h1>Calc</h1>
+  <div class="d-flex">
+    <p>theme</p>
+    <div class="border rounded-pill ms-2 text-center" style="height:25px; width:100px">
+      <a routerLink="them1" class="active border rounded-circle d-inline-block w-25 h-100 " id="btnThem1" (click)="theme1()"></a>
+      <a routerLink="them2" class="border rounded-circle d-inline-block w-25 h-100 mx-1" id="btnThem2" (click)="theme2()"></a>
+      <a routerLink="them3" class="border rounded-circle d-inline-block w-25 h-100" id="btnThem3" (click)="theme3()"></a>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calculator';
+  id:string=''
+
+    ngOnInit(): void {
+      this.id=localStorage.getItem("theme")
+    }
+
 }
